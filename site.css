@@ -90,3 +90,31 @@ footer > span{
   padding: 30px;
   line-height: 40px;
 }
+
+.onderverdeling-table{
+  border: solid 1px #ccc;
+  background-color: #543;
+  border-collapse: collapse;
+}
+
+.onderverdeling-table td, th{
+  border: solid 1px #ccc;
+  padding: 5px;
+}
+.onderverdeling-table th{
+  background-color: rgba(141,132,128,255)
+}
+
+
+.bewapening-legion-table{
+  border: solid 1px #ccc;
+  background-color: #543;
+  border-collapse: collapse;
+}
+.bewapening-legion-table td, th{
+  border: solid 1px #ccc;
+  padding: 5px;
+}
+.bewapening-legion-table th{
+  background-color: rgba(141,132,128,255)
+}
