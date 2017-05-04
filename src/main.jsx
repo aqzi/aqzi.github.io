@@ -19,12 +19,12 @@ function App({ children }) {
       <h1>Het Romeinse Leger</h1>
       <nav>
         <ul>
-          <li><IndexLink activeClassName="linkActiveClass" >Inleiding</IndexLink></li>
-          <li><Link to={'/onderverdeling'} activeClassName="linkActiveClass" >onderverdeling</Link></li>
-          <li><Link to={'/bewapening'} activeClassName="linkActiveClass" >bewapening</Link></li>
-          <li><Link to={'/veldslagen'} activeClassName="linkActiveClass" >veldslagen</Link></li>
-          <li><Link to={'/besluit'} activeClassName="linkActiveClass" >besluit</Link></li>
-          <li><Link to={'/bronnen'} activeClassName="linkActiveClass" >bronnen</Link></li>
+          <li><Link to={'/oclat'} activeClassName="linkActiveClass" >Inleiding</Link></li>
+          <li><Link to={'/oclat/onderverdeling'} activeClassName="linkActiveClass" >onderverdeling</Link></li>
+          <li><Link to={'/oclat/bewapening'} activeClassName="linkActiveClass" >bewapening</Link></li>
+          <li><Link to={'/oclat/veldslagen'} activeClassName="linkActiveClass" >veldslagen</Link></li>
+          <li><Link to={'/oclat/besluit'} activeClassName="linkActiveClass" >besluit</Link></li>
+          <li><Link to={'/oclat/bronnen'} activeClassName="linkActiveClass" >bronnen</Link></li>
         </ul>
       </nav>
     </header>
@@ -48,13 +48,14 @@ function NoMatch({ children }) {
 
 const routes = (
   <Router history={ browserHistory }>
-    <Route component={ App }>
+    <Route path="/oclat" component={ App }>
       <IndexRoute component={ Inleiding }/>
-      <Route path="onderverdeling" component={ Onderverdeling } />
-      <Route path="bewapening" component={ Bewapening } />
-      <Route path="veldslagen" component={ Veldslagen } />
-      <Route path="besluit" component={ Besluit } />
-      <Route path="bronnen" component={ Bronnen } />
+      <Route path="/oclat/inleiding" component={ Inleiding } />
+      <Route path="/oclat/onderverdeling" component={ Onderverdeling } />
+      <Route path="/oclat/bewapening" component={ Bewapening } />
+      <Route path="/oclat/veldslagen" component={ Veldslagen } />
+      <Route path="/oclat/besluit" component={ Besluit } />
+      <Route path="/oclat/bronnen" component={ Bronnen } />
       <Route path="*" component={ NoMatch }/>
     </Route>
   </Router>
