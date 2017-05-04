@@ -50,7 +50,7 @@ const routes = (
   <Router history={ browserHistory }>
     <Route path="/oclat" component={ App }>
       <IndexRoute component={ Inleiding }/>
-      <Route path="/oclat/inleiding" component={ Inleiding } />
+      <Route path="/oclat" component={ Inleiding } />
       <Route path="/oclat/onderverdeling" component={ Onderverdeling } />
       <Route path="/oclat/bewapening" component={ Bewapening } />
       <Route path="/oclat/veldslagen" component={ Veldslagen } />
