@@ -9,7 +9,7 @@ export const Bronnen = () => {
       <ul>
         <li>Commentarii de bello Gallico, VII, LXIX</li>
         <li>Van Gelder, J. (1952) Latijnse geschiedschrijvers. Bloemlezing uit de werken van Sallustius, Caesar, Livius en Tacitus. Haarlem: Spaarnestad</li>
-        <li>Harpur, J. (2007) Guerriers: Les grands héros de l’histoire. MILAN: Toulouse</li>
+        <li>Harpur, J. (2007) Guerriers: Les grands héros de l'histoire. MILAN: Toulouse</li>
         <li>Van Daele, B. (2003) Het Romeinse Leger. Davidsfonds: Leuven</li>
         <li>Goldsworthy, A. (2017) Romeinse legioenen. Omniboek: Utrecht</li>
         <li>Rodgers, N. (2012) Het Romeinse Rijk. Veltman: Utrecht</li>

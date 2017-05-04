@@ -18,7 +18,7 @@ function App({ children }) {
     <header>
       <h1>Het Romeinse Leger</h1>
       <nav>
-        <ul>
+        <ul onClick={onNavigate}>
           <li><Link to={'/oclat'} activeClassName="linkActiveClass" >Inleiding</Link></li>
           <li><Link to={'/oclat/onderverdeling'} activeClassName="linkActiveClass" >onderverdeling</Link></li>
           <li><Link to={'/oclat/bewapening'} activeClassName="linkActiveClass" >bewapening</Link></li>
@@ -63,4 +63,10 @@ const routes = (
 
 Inferno.render(routes, document.getElementById('app'));
 
+const onNavigate = (e) => {
+  let contentEl = document.querySelector('.content');
 
+  if(contentEl){
+    contentEl.scrollTop = 0;
+  }
+}

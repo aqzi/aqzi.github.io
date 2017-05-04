@@ -96,7 +96,7 @@ export const Bewapening = () => {
         </table>
       </p>
       <p>
-        Aangezien er weinig betrouwbare bronnen zijn over de exacte data ’s i.v.m. het ontstaan van reeds vermelde bewapening, werd de chronologische volgorde van het ontstaan weergegeven a.d.h.v. generaties.
+        Aangezien er weinig betrouwbare bronnen zijn over de exacte data's i.v.m. het ontstaan van reeds vermelde bewapening, werd de chronologische volgorde van het ontstaan weergegeven a.d.h.v. generaties.
       </p>
 
       <h3>Oorlogstuigen</h3>
