@@ -8,9 +8,8 @@ const path = require('path');
 const config = {
   entry: './src/main.jsx',
   output: {
-    path: path.resolve(__dirname, 'oclat'),
-    filename: 'bundle.js',
-    publicPath:'/oclat/'
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js'
   },
   resolve: {
 		extensions: [ '.js', '.jsx', '.css', '.less', '.jpg', 'jpeg', '.png', '.gif', '.svg' ]
@@ -68,7 +67,7 @@ const config = {
 			}
 		),
 		new CleanWebpackPlugin(
-			["oclat"], {
+			["dist"], {
 				verbose: true
 			}
 		),
