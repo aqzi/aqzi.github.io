@@ -29,7 +29,7 @@ export const Bronnen = () => {
           <li><a href="https://marcaur.wordpress.com/2015/03/20/de-vijf-grootste-overwinningen-van-de-romeinen-longread/">Goede keizers, slechte keizers</a></li>
           <li><a href="http://www.militair.net/Oorlogen/Romeinse%20oorlogen/Slag%20bij%20Teutoburgerwoud/">militair.net</a></li>
           <li><a href="http://www.isgeschiedenis.nl/nieuws/4-opmerkelijke-veldslagen-romeinse-geschiedenis/">4 opmerkelijke veldslagen uit de Romeinse geschiedenis</a></li>
-          <li><a href="https://nl.wikipedia.org/wiki/BelegvanAlesia">Beleg van Alesia</a></li>
+          <li><a href="https://nl.wikipedia.org/wiki/Beleg%20van%20Alesia">Beleg van Alesia</a></li>
           <li><a href="https://www.kunstgeografie.nl/henv/helden.alesia.slag.htm">Waar lag Alésia?</a></li>
           <li><a href="http://www.cenens.be/alesia/omgeving.html">de geschiedenis van Alesia</a></li>
           <li><a href="https://plazilla.com/page/4295028913/drie-grote-veldslagen-uit-de-romeinse-tijd">Drie grote veldslagen uit de Romeinse tijd</a></li>

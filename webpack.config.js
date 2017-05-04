@@ -9,7 +9,8 @@ const config = {
   entry: './src/main.jsx',
   output: {
     path: path.resolve(__dirname, 'oclat'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath:'/oclat/'
   },
   resolve: {
 		extensions: [ '.js', '.jsx', '.css', '.less', '.jpg', 'jpeg', '.png', '.gif', '.svg' ]
