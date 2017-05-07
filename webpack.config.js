@@ -8,8 +8,8 @@ const path = require('path');
 const config = {
   entry: './src/main.jsx',
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, 'oclat'),
+    filename: 'bundle.[hash].js'
   },
   resolve: {
 		extensions: [ '.js', '.jsx', '.css', '.less', '.jpg', 'jpeg', '.png', '.gif', '.svg' ]
@@ -37,7 +37,7 @@ const config = {
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
         use: [
-            'file-loader?hash=sha512&digest=hex&name=[hash].[ext]'
+            'file-loader?hash=sha512&digest=hex&name=[hash:6].[ext]&outputPath=images/'
         ]
       },
       {
@@ -70,7 +70,7 @@ const config = {
 			}
 		),
 		new CleanWebpackPlugin(
-			["dist"], {
+			["oclat"], {
 				verbose: true
 			}
 		),

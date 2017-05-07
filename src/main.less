@@ -30,8 +30,12 @@ and (max-device-width : 667px) {
     font-size: 0.8rem;
   }
   article{
+    margin: 5% 7%;
     font-size: 1rem;
     line-height: 1.2em;
+  }
+  h1{
+    font-size: 1.5rem;
   }
   h2{
     font-size: 1.2rem;
@@ -39,15 +43,39 @@ and (max-device-width : 667px) {
   h3{
     font-size: 1rem;
   }
+
+  table{
+    font-size: 0.8rem;
+  }
+
+
   footer{
     flex: 0 0 20px;
     height: 20px;
     font-size: 0.8rem;
 
+    .fname{
+      display: none;
+    }
+
     span{
       padding: 10px;
       line-height: 20px;
     }
+  }
+
+  .army-img{
+    height: 200px;
+  }
+
+  .legion-img{
+    height: 200px;
+  }
+  .siegeofalexia-img{
+    height: 200px;
+  }
+  .teutoburgerwoud-img{
+    height: 200px;
   }
 }
 
@@ -64,8 +92,12 @@ and (max-device-width : 736px) {
     font-size: 12px;
   }
   article{
+    margin: 5% 7%;
     font-size: 1rem;
     line-height: 1.2em;
+  }
+  h1{
+    font-size: 1.5rem;
   }
   h2{
     font-size: 1.2rem;
@@ -73,15 +105,39 @@ and (max-device-width : 736px) {
   h3{
     font-size: 1rem;
   }
+
+  table{
+    font-size: 0.8rem;
+  }
+
   footer{
     flex: 0 0 20px;
     height: 20px;
     font-size: 0.8rem;
 
-    span{
+    .fname{
+      display: none;
+    }
+
+
+    & > span{
       padding: 10px;
       line-height: 20px;
     }
+
+
+  }
+  .army-img{
+    height: 200px;
+  }
+  .legion-img{
+    height: 200px;
+  }
+  .siegeofalexia-img{
+    height: 200px;
+  }
+  .teutoburgerwoud-img{
+    height: 200px;
   }
 }
 
@@ -94,6 +150,7 @@ and (min-device-width : 737px) {
     font-size: 16px;
   }
   article{
+    margin: 5% 20%;
     font-size: 1.3rem;
     line-height: 1.6em;
   }
@@ -102,10 +159,22 @@ and (min-device-width : 737px) {
     flex: 0 0 30px;
     height: 40px;
 
-    span{
+    & > span{
       padding: 30px;
       line-height: 40px;
     }
+  }
+  .army-img{
+    height: 600px;
+  }
+  .legion-img{
+    height: 500px;
+  }
+  .siegeofalexia-img{
+    height: 400px;
+  }
+  .teutoburgerwoud-img{
+    height: 500px;
   }
 }
 
@@ -131,6 +200,10 @@ nav {
     margin: 10px auto;
     padding-bottom: 10px;
 
+    ul{
+      padding:0;
+      margin: 0;
+    }
 
     li{
         min-width: 80px;
@@ -156,12 +229,12 @@ nav {
 }
 
 nav:before, nav:after, footer:before {
-        content: '';
-        display: block;
-        width: 100%;
-        height: 1px;
-        background: linear-gradient(to right,rgba(255,255,255,0) 0%,white 50%,rgba(255,255,255,0) 100%);
-    }
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right,rgba(255,255,255,0) 0%,white 50%,rgba(255,255,255,0) 100%);
+}
 
 .content{
   flex: 1 1 auto;
@@ -171,7 +244,6 @@ nav:before, nav:after, footer:before {
 }
 
 article{
-  margin: 5% 20%;
   text-align: left;
 
   a{
@@ -181,7 +253,6 @@ article{
 
 footer{
   text-align: center;
-
 }
 
 
@@ -213,32 +284,61 @@ footer{
   background-color: rgba(141,132,128,255)
 }
 
+.army-img{
+  background-image: url(./images/army.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .siegeofalexia-img{
   font-size: 1rem;
   line-height: 400px;
   color: #999;
 
   text-align: center;
-
-  background-image: url(./images/siegeofalexia.jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./images/siegeofalexia.png);
+  background-size: 90%;
   background-position: center;
-  float:right;width: 600px; height:400px; margin: 10px;
+  margin: 10px;
+}
+
+.alexia-kleur-img{
+  background-image: url(./images/Alexia_kleur.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+
+.legion-img{
+  background-color: #ccc;
+  background-image: url(./images/legion.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+
 }
 
 .teutoburgerwoud-img{
   font-size: 1rem;
   line-height: 400px;
   color: #999;
-
   text-align: center;
-
+  background-repeat: no-repeat;
   background-image: url(./images/teutoburgerwoud.jpg);
   background-size: cover;
   background-position: center;
-  width: 800px;
-  height: 500px;
   margin: 10px;
+}
+
+.teutoburg-img{
+  background-image: url(./images/slagVanTeutoburg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 300px;
+
 }
 
 .teutoburgerwoud-img:after {

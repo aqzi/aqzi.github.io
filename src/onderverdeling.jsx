@@ -24,6 +24,9 @@ export const Onderverdeling = () => {
       Een legioen kon dus zonder enig probleem enkele maanden rondtrekken door de grote voorraad van dingen die ze meesleurde tijdens hun tocht en het groot aanbod van assistenten.
     </p>
 
+    <div class="legion-img" />
+
+
     <h3>De hulptroepen</h3>
     <p>
       Naast legioenen maakte de Romeinen ook veelvuldig gebruik van de auxilia (= hulptroepen). Daartoe behoorden de soldaten die niet de status hadden van Romeinse staatsburger doordat ze afkomstig waren uit andere volkeren. Omwille van hun andere afkomst kregen ze maar 1/3 van het loon van een legionarius.

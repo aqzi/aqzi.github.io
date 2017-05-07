@@ -21,7 +21,7 @@ export const Bronnen = () => {
 
       <h3 class="bron">Mondeling</h3>
       <p>
-        Mondelinge bron geleverd door Kolonel SBH Marc Alexander (Hoogleraar aan de KMS)
+        Mondelinge bron geleverd door hoogleraar aan de KMS
       </p>
       <h3 class="bron">Websites</h3>
       <p>

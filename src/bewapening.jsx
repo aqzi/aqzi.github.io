@@ -37,8 +37,8 @@ export const Bewapening = () => {
           <thead>
             <tr>
               <th>Bewapening legionairs</th>
-              <th>aanvalswapen</th>
-              <th>verdedingingswapen</th>
+              <th>aanvals<br/>wapen</th>
+              <th>verdedingings<br/>wapen</th>
               <th></th>
             </tr>
           </thead>
@@ -74,8 +74,8 @@ export const Bewapening = () => {
           <thead>
             <tr>
               <th>Bewapening hulptroepen</th>
-              <th>aanvalswapens</th>
-              <th>verdedigingswapens</th>
+              <th>aanvals-<br/>wapens</th>
+              <th>verdedigings<br/>wapens</th>
             </tr>
           </thead>
           <tr>

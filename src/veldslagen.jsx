@@ -23,7 +23,7 @@ export const Veldslagen = () => {
          Tegelijkertijd liet Vercingetorix zijn troepen de circumvallatielinie aanvallen. De eerste dag hielden de Romeinen goed stand tegen de aanvallen van de Galliërs, maar de daar opvolgende dagen gingen bergaf. Ze werden gedwongen om forten en kampen in de contravallatielinie op te geven, maar Gaius rebonius kon met de cavalerie voorkomen dat de Galliërs hier gebruik van konden maken.
         Na maandenlang vechten besloot de neef van Vercingetorix, Vercassivellaunos, om met 60.000 manschappen de Romeinse stellingen aan te vallen. Hij koos de plek waar de stellingen het zwakst waren, namelijk waar de linies op dezelfde plek een rivier kruisten. Vercingetorix liet van binnenuit op dezelfde plaats een aanval uitvoeren, maar Caesar had zoveel vertrouwen in zijn troepen dat hij het bevel gaf om de stellingen te behouden. Caesar nam een grote gok door met 6.000 manschappen een leger van 60.000 manschappen aan te vallen, maar hij overdonderde de Galliërs zo hard dat ze zich genoodzaakt voelden om zich terug te trekken.
       </p>
-
+        <div class="alexia-kleur-img" />
       <p>
         Hiermee was het belangrijkste en meest beslissende gevecht gestreden waarna de troepen in Alesia zich overgaven door hongersnood en gebrek aan manschappen.
         Rome was de grote overwinnaar bij deze slag die de basis vormde voor het verder veroveren van Gallië en Brittannië. De Gallische soldaten werden als slaven meegenomen en verkocht. Vercingetorix werd tevens gevangengenomen, maar niet verkocht aangezien de Romeinen hem wilden houden als trofee. Na een paar jaar werd hij ritueel gewurgd tijdens een triomftocht.
@@ -56,6 +56,8 @@ export const Veldslagen = () => {
         Tijdens het gevecht zelf nam hij alleen maar slechte beslissingen. Hij had wel veel tegenslag met het weer waardoor de schutters hun bogen niet konden gebruiken en de houten schilden te zwaar werden om te dragen door het gewicht van het water dat in het hout was opgeslorpt. Hij gaf het order om door te marcheren naar een open plek, maar aangezien hij het bos niet kende wist hij niet dat er geen open plekken in hun nabijheid waren. Dit was een fout order aangezien hij de omgeving niet kende en dus ook niet wist waar er zich nog Germanen bevonden. Hij had zijn positie moeten verdedigen om zo een basis proberen op te richten aangezien het leger het kwetsbaarst is wanneer ze zich aan het verplaatsen zijn.
         Varus gaf ook geen steun aan zijn manschappen waardoor de strijdlust weg ging en velen het nut van de strijd niet meer zagen. De Legatus, Numonius Vala, van een van zijn drie legioenen was een van die personen die het leiderschap van Varus in twijfel trok en de verzwakte moreel aanvoelde. Hij was dan ook degene die samen met de ruiters vluchtte en zo de troepen in de steek liet. Maar ver kwam hij niet aangezien hij in het bos zelf nog werd afgemaakt door de ruiters van de Germanen. Zonder de steun van de ruiters was het leger verzwakt en dus grepen de Germanen hun kans. Ze begonnen bijna iedereen genadeloos af te slachten. Varus zag op dat ogenblik in dat hij zwaar had gefaald en pleegde daarom zelfmoord.
       </p>
+
+      <div class="teutoburg-img" />
 
       <h3>Vergelijking</h3>
       <p>

@@ -36,7 +36,7 @@ function App({ children }) {
     <footer>
       <span>mei 2017</span>
       <span>Kosh 6LWib</span>
-      <span>Aquila Ziedins (6), Tobias Alexander (1)</span>
+      <span><span>Aquila </span><span class="fname">Ziedins (6) </span></span><span><span>Tobias </span><span class="fname">Alexander (1) </span></span>
     </footer>
   </div>
   );
