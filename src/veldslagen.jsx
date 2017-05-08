@@ -42,9 +42,9 @@ export const Veldslagen = () => {
           Wat hij echter niet wist, was dat hij opgewacht werd door een groot Germaans leger dat zich in het bos had verstopt om een verrassingsaanval uit te voeren. Het Teutoburgerwoud was ondoordringbaar, mistig en vochtig, iets wat de Romeinen niet gewend waren aangezien zij altijd op vlakke en open slagvelden streden. Door het gebrek aan overzicht en de willekeur van de Germanen hadden de Romeinen vanaf het begin een nadeel. Ze konden namelijk hun gebruikelijke tactieken niet uitvoeren door het gebrek aan organisatie en ruimte. Toen na een paar dagen de Romeinse ondergang onafwendbaar leek, pleegde Varus zelfmoord. Hiermee was het lot van zijn troepen ook bezegeld aangezien ze geen leider meer hadden. Van de 18 000 manschappen slaagden slechts enkelen erin aan de vijand te ontsnappen en de Romeinse winterkampen aan de Rijn te bereiken.
         </p>
 
-        <div class="teutoburgerwoud-img">
-            <span class="teutoburgerwoud-img-txt">Uitzicht van het Teutoburgerwoud gebaseerd op teksten van de eerste eeuw n.C.</span>
-        </div>
+        <div class="teutoburgerwoud-img" />
+        <div class="teutoburgerwoud-img-txt">Uitzicht van het Teutoburgerwoud gebaseerd op teksten van de eerste eeuw n.C.</div>
+
         <p>
           Deze slag had tot gevolg dat er een einde kwam aan de Romeinse expansie in Noord-Europa. Ook had keizer Augustus besloten dat vanaf toen de Rijn de vaste grens zou worden van het Imperium Romanum.
         </p>
